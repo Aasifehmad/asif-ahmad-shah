@@ -3,6 +3,26 @@
 /* Remove default list styles */
 ul {
     list-style-type: none;
+    padding-left: 0; /* Remove default padding */
+}
+
+/* Custom responsibilities list styling */
+.responsibilities-list {
+    padding-left: 20px; /* Add custom padding for bullets */
+}
+
+.responsibilities-list li {
+    position: relative; /* Allow positioning for custom bullets */
+    padding-left: 20px; /* Space for custom bullets */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.responsibilities-list li:before {
+    content: "•"; /* Custom bullet character */
+    position: absolute;
+    left: 0;
+    color: #007bff; /* Custom bullet color */
+    font-size: 1.2rem; /* Custom bullet size */
 }
 
 /* Hero section styling */
