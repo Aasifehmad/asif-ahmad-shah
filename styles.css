@@ -1,0 +1,59 @@
+/* Custom Styles */
+
+/* Remove default list styles */
+ul {
+    list-style-type: none;
+}
+
+/* Hero section styling */
+.hero {
+    background: #343a40; /* Dark background */
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.hero .btn {
+    font-size: 1.25rem;
+}
+
+/* Section spacing */
+section {
+    padding: 3rem 0;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-subtitle {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* List Group styling */
+.list-group-item {
+    font-size: 1.1rem;
+}
+
+/* Footer styling */
+footer {
+    background: #343a40;
+    color: #fff;
+}
